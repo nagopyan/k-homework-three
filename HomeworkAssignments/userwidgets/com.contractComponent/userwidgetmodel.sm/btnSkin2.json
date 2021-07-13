@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s6729957bc2147978f7c016f54cabbdb",
+    "_text_": "Toggle Getter/Setter",
+    "_top_": {
+        "type": "string",
+        "value": "69%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sea631fafa084336951e9190ed89ca95",
+    "id": "btnSkin2",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d557cca183ed488fa3c6ff4822470bb5",
+    "name": "kony.ui.Button",
+    "parent": "flxContract",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

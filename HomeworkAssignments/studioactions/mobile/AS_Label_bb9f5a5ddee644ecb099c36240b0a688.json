@@ -1,0 +1,38 @@
+{
+    "AS_Label_bb9f5a5ddee644ecb099c36240b0a688": {
+        "id": "AS_Label_bb9f5a5ddee644ecb099c36240b0a688",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmContactDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c47e258da26249c9869a06b6c4b6a4b0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___h8b181ef85294a858b7d3a766191fee1",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmSegListContacts",
+            "friendlyName": "frmSegListContacts",
+            "formKUID": "b06252f173d04b33929eb8bb21842490",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onTouchEnd\",\n        \"widgetId\": \"labelHomeOne\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

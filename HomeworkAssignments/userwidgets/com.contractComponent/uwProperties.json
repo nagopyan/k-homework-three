@@ -1,0 +1,293 @@
+{
+    "classname": "contractComponent",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "acb8c84d823849f583197320071f8d98",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "btnPaintClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnPaintClick",
+                        "srcWidget": "btnPaint",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "d2825444afdb41078abc87bc04019c4b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f611b9a6e70b4eb7aa022874e50f042c",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "btnSkin1Click",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnSkin1Click",
+                        "srcWidget": "btnSkin1",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "c5cb5072e01d4ba6891a5dac1cb72838"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a8a2d31274ff4729b34d552ccc56bb8b",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 4,
+                    "propertyKey": "flxSkinClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "flxSkinClick",
+                        "srcWidget": "flxSkin",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ce161807669c4bef91cc9646c7adec1f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ee57d63697ac482bb20a58591437ee22",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 5,
+                    "propertyKey": "btnSkin2Click",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnSkin2Click",
+                        "srcWidget": "btnSkin2",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "d557cca183ed488fa3c6ff4822470bb5"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dda0bfd290614402b3d57118a384c1b5",
+                    "originalPropertyKey": "onTouchStart",
+                    "propertyIndex": 6,
+                    "propertyKey": "lblChangeSkinOnTouchStart",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "lblChangeSkinOnTouchStart",
+                        "srcWidget": "lblChangeSkin",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "df5f5e2792c94f4ab3347114f98cabc0"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [
+                "btn.Actions"
+            ],
+            "properties": [
+                "SkinsGroup",
+                "TextGroup"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "General",
+                    "kuid": "cfcb8caed6fb4d16a0d2c31e81fd56a1",
+                    "originalPropertyKey": "isStatic",
+                    "propertyIndex": 1,
+                    "propertyKey": "isStatic",
+                    "pw": {
+                        "displayName": "isStaticDisplay",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "b950fd586f6f4d5596f8c91f52749b4a",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "TextGroup",
+                    "kuid": "j479821a7a0e43b294834687644d32c9",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "txtBtnSkin1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "btnSkin1Text",
+                        "srcWidget": "btnSkin1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "c5cb5072e01d4ba6891a5dac1cb72838"
+                },
+                {
+                    "access": "Enable",
+                    "group": "SkinsGroup",
+                    "kuid": "b45f1c58975d4df2ae5d037d8237c11e",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "btnSkin2Skin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "btnSkin2Skin",
+                        "srcWidget": "btnSkin2",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "d557cca183ed488fa3c6ff4822470bb5"
+                },
+                {
+                    "access": "Enable",
+                    "group": "TextGroup",
+                    "kuid": "b56dfb0b35fc48f2814f7824553df4c2",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "txtBtnPaint",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "btnPaintText",
+                        "srcWidget": "btnPaint",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "d2825444afdb41078abc87bc04019c4b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "SkinsGroup",
+                    "kuid": "c0a457e8822346c4bd5b682e263579f1",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "btnSkin1Skin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "btnSkin1Skin",
+                        "srcWidget": "btnSkin1",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "c5cb5072e01d4ba6891a5dac1cb72838"
+                },
+                {
+                    "access": "Enable",
+                    "group": "TextGroup",
+                    "kuid": "b96b1b40110b48d1855d97ad1dda4001",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "txtBtnSkin2",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "btnSkin2Text",
+                        "srcWidget": "btnSkin2",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "d557cca183ed488fa3c6ff4822470bb5"
+                },
+                {
+                    "access": "Enable",
+                    "group": "SkinsGroup",
+                    "kuid": "cfc54c1149ac43d68d641ae91e8a9775",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "btnPaintSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "btnPaint",
+                        "srcWidget": "btnPaint",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "d2825444afdb41078abc87bc04019c4b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "SkinsGroup",
+                    "kuid": "a6d20e349414478ca56b930e141049a0",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "skin1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxSkin",
+                        "srcWidget": "flxSkin",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ce161807669c4bef91cc9646c7adec1f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "TextGroup",
+                    "kuid": "e2559a47ed0d43c88df5c16265d2641b",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "txtBx",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "txtBox",
+                        "srcWidget": "txtBx",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "i89fd8dd99c74327b20aebc0aedd1080"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "b180ce452d5a4b50b2ceddcd032e08cb",
+                    "propertyKey": "btnSkin2",
+                    "srcWgtKUID": "d557cca183ed488fa3c6ff4822470bb5"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "com",
+    "version": "1.0.0"
+}

@@ -1,0 +1,55 @@
+{
+    "keys": [
+        "Hi",
+        "addFavorites",
+        "contactSend",
+        "msgSend"
+    ],
+    "locales": {
+        "de": {
+            "i18nStrings": {
+                "Hi": "",
+                "addFavorites": "Zu den Favoriten hinzufügen",
+                "contactSend": "Kontakt Senden",
+                "msgSend": "Nachricht Senden"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "en": {
+            "i18nStrings": {
+                "Hi": "Hello",
+                "addFavorites": "Add to Favorites",
+                "contactSend": "Share Contact",
+                "msgSend": "Send Message"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "ja": {
+            "i18nStrings": {
+                "Hi": "Konichiwa",
+                "addFavorites": "お気に入りに追加",
+                "contactSend": "連絡先を送信",
+                "msgSend": "メッセージを送る"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        }
+    }
+}
